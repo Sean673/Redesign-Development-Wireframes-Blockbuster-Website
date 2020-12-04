@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="template, html, css, javascript, tutorial">
+<meta name="description" content="this is a tutorial for how to create a basic html, css, and javascript website">
+<meta name="author" content="Sean Solomon">
+<title>Blockbuster | Shop - Redesign: Development Wireframes</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/c9c960b8e5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+       <nav>
+            <a href="index.html" class="navbar-brand">Blockbuster Redesign</a>
+            <button class="navbar-toggler" type="button" data-target="#main-navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul id="main-navigation" class="navbar"> 
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="movies.html" title="Movies">Movies</a></li>
+                <li><a href="about.html" title="About" >About</a></li>
+                <li><a href="shop.html" title="Shop">Shop</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <h1> Product List</h1>
+       <div class="container">
+       <div class="row">      
+           <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/mask.jpg" alt="Blackstrap Mask" style="width:100%">
+                    <h5>Blackstrap Mask</h5>
+                    <h4><p class="price">$15.00</p></h4>
+                    <details>
+                        <summary>Details</summary>
+                        <p> Each Civil Mask™ facemask is made from upcycled fabric that would have otherwise hit the cutting room floor. We are proud to add the Civil Facemask to the BlackStrap WASTE-ZERO line of mindfully and sustainably manufactured products that keep fabric scraps out of landfills.
+
+                            One Size Fits All
+                            Tightly woven outer shell fabric (Milled in the USA)
+                            Dual Layer construction with breathable mesh liner
+                            Synthetic, moisture wicking & lens safe fabric
+                            Quick dry and machine washer/dryer friendly
+                            *** PRODUCT DISCLAIMER: This mask is not certified for use in a medical setting </p>
+                        </details>
+                        <label for="sizes">Quantity:</label>
+                        <select id="sizes" name="sizelist" form="sizelist">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/tote1.jpg" alt="Tote Bag" style="width:100%">
+                    <h5>Tote Bag</h5>
+                    <h4><p class="price">$4.00</p></h4>
+                    <label for="sizes">Quantity:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>  
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/memcard.jpg" alt="Membership Card" style="width:100%">
+                    <h5>Membership Card</h5>
+                    <h4><p class="price">$2.00</p></h4>
+                    <p class="info">Feeling Nostalgic? Blockbuster Pre Laminated Membership Cards Are Now For Sale!</p>
+                    <label for="sizes">Quantity:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/keychain.jpg" alt="Blockbuster Keychain" style="width:100%">
+                    <h5>Keychain</h5>
+                    <h4><p class="price">$7.00</p></h4>
+                    <p class="info">Handmade Locally</p>
+                    <label for="sizes">Quantity:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/magnet.jpg" alt="Ticket Magnet" style="width:100%">
+                    <h5>Ticket Magnet</h5>
+                    <h4><p class="price">$5.00</p></h4>
+                    <p class="info">Handmade by Local Teacher</p>
+                    <label for="sizes">Quantity</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/lmagnet.jpg" alt="Last Blockbuster Magnet" style="width:100%">
+                    <h5>Last Blockbuster Magnet</h5>
+                    <h4><p class="price">$5.00</p></h4>
+                    <p class="info">Handmade by Locally Teacher</p>
+                    <label for="sizes">Quantity:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/pgame.jpg" alt="Blockbuster Party Game" style="width:100%">
+                    <h5>Blockbuster Party Ganme</h5>
+                    <h4><p class="price">$24.99</p></h4>
+                    <details>
+                    <summary>Game Details</summary>
+                    <p>It’s an all-out race to collect a film from every genre and be crowned the new Blockbuster big-shots. With 200 classic movies, 60 category cards and a replica of a Blockbuster parking lot, you’ll want to clear a space on your top 10 family party games – this is one that’s sure to bring the entertainment home again. Requires 2 AA batteries (not included).</p>
+                    </details>
+                    <label for="sizes">Quantity:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/pgamex.jpg" alt="Blockbuster Party Game Expansion Pack" style="width:100%">
+                    <h5>Blockbuster Party Game Expansion Pack</h5>
+                    <h4><p class="price">$15.99</p></h4>
+                    <label for="sizes">Quantity:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/pint.jpg" alt="Silicon Pint Cup" style="width:100%">
+                    <h5>Silicon Pint Cup</h5>
+                    <h4><p class="price">$10.00</p></h4>
+                    <p class="info">16 oz, dishwasher safe and they are made out of silicon so they won’t break!</p>
+                    <label for="sizes">Color:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="Small">White</option>
+                        <option value="Medium">Blue</option>
+                        <option value="Large">Black</option>
+                        <option value="X-Large">X-Large</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/sglass.jpg" alt="Silicon Shot Glass" style="width:100%">
+                    <h5>Silicon Shot Glass</h5>
+                    <h4><p class="price">$6.00</p></h4>
+                    <p class="info">A shot glass that never breaks and it says Blockbuster!</p>
+                    <label for="sizes">Color:</label>
+                    <select id="sizes" name="sizelist" form="sizelist">
+                        <option value="Clear">Clear</option>
+                        <option value="Blue">Blue</option>
+                    </select>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/nposter.jpg" alt="Last Blockbuster Movie Poster (Night Time) 11″ x 17" style="width:65%">
+                    <h5>Last Blockbuster Movie Poster (Night Time) 11″ x 17″</h5>
+                    <h4><p class="price">$10.00</p></h4>
+                    <details>
+                        <summary>Details</summary>
+                        <p>The Last Blockbuster follows Sandi Harding, the manager of the world’s last remaining Blockbuster – located in Bend, OR – as she reflects on the store’s vibrant past and navigates the difficult task of keeping a video rental store open in the era of streaming. Taking us through the history and subsequent rise and fall of the franchise, the documentary reveals the real reason why Blockbuster went out of business (hint – it wasn’t Netflix), while celebrating the unique and defining culture it created in the ’80s and ‘90s</p>
+                        </details>
+                        <label for="sizes">Quantity:</label>
+                        <select id="sizes" name="sizelist" form="sizelist">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <p><button>Add to Cart</button></p>
+                </div>
+            </div><div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/rposter.jpg" alt="Last Blockbuster Movie Poster 11″ x 17″" style="width:65%">
+                    <h5>Last Blockbuster Movie Poster 11″ x 17″</h5>
+                    <h4><p class="price">$10.00</p></h4>
+                    <details>
+                        <summary>Details</summary>
+                        <p>The Last Blockbuster follows Sandi Harding, the manager of the world’s last remaining Blockbuster – located in Bend, OR – as she reflects on the store’s vibrant past and navigates the difficult task of keeping a video rental store open in the era of streaming. Taking us through the history and subsequent rise and fall of the franchise, the documentary reveals the real reason why Blockbuster went out of business (hint – it wasn’t Netflix), while celebrating the unique and defining culture it created in the ’80s and ‘90s</p>
+                    </details>
+                        <label for="sizes">Quantity:</label>
+                        <select id="sizes" name="sizelist" form="sizelist">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <p><button>Add to Cart</button></p>
+                </div>
+                <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="shop.html">1</a>
+                    <a class="active" href="shoptwo.html">2</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+            </div>
+        </div>
+        <p><a class="btn btn-primary"   href="checkout.html" title="Checkout">Checkout item</a></p>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row main-footer">
+                <div class="col-xs-12 col-md-6">
+                    <h3>About Us</h3>
+                       <p>How a small business, thru stubborn determination and a bit of pure luck, has been able to operate in the chaos of an ever changing home video world. All proceeds from our product sales go directly to support our store and help us stay open. The majority of our products are also made right here in Bend. We thank you for your support!</p>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <h3>Navagation</h3>
+                    <ul>
+                        <li><a href="index.html" title="Home">Home</a></li>
+                        <li><a href="movies.html" title="Movies">Movies</a></li>
+                        <li><a href="about.html" title="About" >About</a></li>
+                        <li><a href="shop.html" title="Shop">Shop</a></li>
+                        <li><a href="contact.html" title="Contact">Contact</a></li>
+                    </ul> 
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Information</h3>
+                    <address><a href="https://goo.gl/maps/BDEbVkATVku4huW96" target="_blank" title="Google Maps"> 211 NE Revere Bend, OR</address>
+                    <p><a href="tel:541-385-9111" title="Phone Number" target="_blank">541-385-9111</a></p>
+                    <p><a href="mailto:blockbusterbend@gmail.com" title="Webmaster's Email" target="_blank">blockbusterbend@gmail.com</a></p>
+                    <ul class="social-media">
+                        <ol><a href="https://twitter.com/blockbusterbend?lang=en" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></ol>
+                        <ol><a href="https://www.facebook.com/pages/Blockbuster/108334889510574/" title="Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a></ol>
+                        <ol><a href="https://www.instagram.com/blockbusterbend/?hl=en" title="Instagram" target="_blank"><i class="fab fa-instagram-square"></i></a></ol>
+                    </ul>
+                </div>
+            </div>
+            <div class="row legal">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2020. Redesign: Development Wireframes | CTEC 3350 | For academic use only" &reg;; 2020.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
+
